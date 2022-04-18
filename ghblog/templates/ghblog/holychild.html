@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'michael/index.css' %}">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="./wes.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+   
+    <title>Life in Holy Child Senior High School</title>
+</head>
+
+<body>
+    <div class="container justufy-content-center align-items-center full">
+        <div class="jumbotron homerow">
+            <h1>Life in Holy Child Secondary School</h1>
+        </div>
+        
+        <p>
+            Priding itself among the most prestigious, religious and dedicated first choice schools in Ghana,
+            Holy Child Senior High School has proven to be on top of its game when it comes to educating and training
+            the girl child to be responsible and competent.
+        </p>
+        <img src="{% static 'ghblog/child1.jpg' %}" class="nav-image" height="35px" width="35px"></img>
+
+        <p>Located at …, Holy Child has been shaping lives for … years</p>
+        <b><p>What is life like there though?
+            Here is the story of one Medical Doctor who attended there, Dr. Akosua Kyerewaa Amoako Atta.
+        </p></b>
+        
+
+        <p>
+            Holy Child is a beautiful school.
+            The buildings in holico are very cute, nice and attractive.
+            They are especially neater during times of visiting of something of a similar sort.
+            I wouldn’t describe my life there as a bed of roses but it was indeed a significant part of my life from
+            which I have learnt some priceless lessons and experiences.
+            The school is well equipped with beautiful facilities, like a library and some laboratories.
+            Entertainment and Jams make the school a particularly fun place to be in.
+            Dedicated and well-versed teachers play a role in helping students comprehend difficult concepts and ideas.
+
+        </p>
+
+        <p>
+            Boarding life was well, to put it nicely, horrible for me.
+            I cried a lot. I was never really happy, always stressed here and there.
+            My first compound duty was to scrub the bathhouse,
+
+            which is not a good place to start with. Such wicked seniors I had.
+        </p>
+        <img src="{% static 'ghblog/child2.jpg' %}" class="nav-image" height="35px" width="35px"></img>
+        <img src="{% static 'ghblog/child3.jpg' %}" class="nav-image" height="35px" width="35px"></img>
+        <img src="{% static 'ghblog/child4.jpg' %}" class="nav-image" height="35px" width="35px"></img>
+
+
+
+
+        <p>
+            My daily routine involved waking up at by 5 o’clock,
+            preparing for mass, packing for school…
+            Class began at 7 58, a short 10 minutes break at 10 15, a lunch break at 2 20.
+            Then class continue till around 4 and should there be extension classes, 5 00. Dinner at 5 30. Prepping till
+            9 30 and sometimes extended to 12. And the cycle begins again.
+
+        </p>
+
+        <p>
+            My classmates were very united, fun, amazing and smart.
+            One time the school, organized a beauty pageant and I placed fourth. It is one of the fond memories I have
+            of the school when my shoe got stolen.
+
+        </p>
+
+        <p>
+            The best part of the school is how it helped to shape me spiritually. Mass was very fun and insightful.
+            I made good friends and other friends and all in all I learnt that your enemy can truly be your best friend.
+
+        </p>
+
+        <div>
+            <a href="{% url 'ghblog:index' %}">More</a>
+
+            <br>
+            <br>
+            <a href="{% url 'ghblog:wesley' %}">More</a>
+            <br>
+            <a href="{% url 'ghblog:motown' %}">More</a>
+            
+
+		</div>
+    </div>
+</body>
+
+</html>

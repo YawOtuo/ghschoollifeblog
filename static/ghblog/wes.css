@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(247, 242, 242, 0.5);
+}
+
+.jumbotron {
+    background-color: inherit;
+}
+
+.full {
+    background-color: white;
+
+}
+
+.homerow{
+    border-bottom: 1px solid rgb(119, 23, 23);
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-bottom: 2%;
+
+    
+}
+
+h1{
+    font-weight: 300;
+}
+
+.schooolpic{
+    height: 200px;
+}
+
+.goto{
+    background-color: rgba(247, 242, 242, 0.5);
+}
+
+.blog{
+    background-color: antiquewhite;
+    border-bottom: 2px solid black;
+}
