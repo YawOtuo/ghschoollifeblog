@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'michael/index.css' %}">
+       
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
@@ -31,7 +36,7 @@
              she is the glory of the coast and her name is Achimota. Motown prides herself as one of the IS schools in the country, Ghana. With their black and white colors,
              they boast some of the best leaders and thinkers Ghana has ever produced.
         </p>
-        <img src=" ./motown1.jpg">
+        <img src="{% static 'ghblog/motown1.jpg' %}" ></img>
 
         <p>How is life in the school like though? Here is the story of an unnamed person</p>
         <p>For me Motown was fun and stressful. Motown has some of the best facilities in any school in Ghana. 
@@ -46,9 +51,9 @@
         <p>Surely, the presence of mixed gender alone makes the school itself an entertaining experience itself,
              if you know what I mean. And oh my! The bon fire nights can be so crazy. </p>
 
-             <img src=" ./motown2.jpg">
-             <img src=" ./motown3.jpg">
-             <img src=" ./motown4.png">
+             <img src="{% static 'ghblog/motown2.jpg' %}" ></img>
+             <img src="{% static 'ghblog/motown3.jpg' %}" ></img>
+             <img src="{% static 'ghblog/motown4.png' %}" ></img>
 
         <p>
             Achimota is one school that places huge emphasizes on decency, decorum and decency. School taught me how to eat with a fork and knife,
@@ -65,14 +70,13 @@
         
         <div>
 			<a href="#">Reload</a>
-            <a href="./index.html">Go to Home Page</a>
+            <a href="{% url 'ghblog:index' %}">Go to Home Page</a>
 
             <br>
-            <a href="./holychild.html">Life in: Holy Child Senior High School</a>
+            <a href="{% url 'ghblog:holychild' %}">Life in: Holy Child Senior High School</a>
             <br>
-            <a href="./wesley.html">Life in: Wesley Girls Senior High School</a>
+            <a href="{% url 'ghblog:wesley' %}">Life in: Wesley Girls Senior High School</a>
             <br>
-                <a href="./motown.html">Next: Life in Achimota School</a>
             
 
 		</div>

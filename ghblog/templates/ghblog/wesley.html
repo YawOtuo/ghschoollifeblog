@@ -38,7 +38,7 @@
 			Gey Hey. Located at ... , for .... Wesley Girls has held on to the prestige and 
 			honor that comes with its' name
 		</p>
-		<img src="{% static 'ghblog/hey1.jpg' %}" class="nav-image" height="35px" width="35px"></img>
+		<img src="{% static 'ghblog/hey1.jpg' %}" class=''></img>
 
 
 		<b>	<p>What is life there like though?</p>
@@ -54,9 +54,9 @@
 			The facilities are great except that they are few.
 			 The staff are very dedicated and committed. 
 		</p>
-		<img src="{% static 'ghblog/hey2.jpg' %}" class="nav-image" height="35px" width="35px"></img>
-		<img src="{% static 'ghblog/hey3.jpg' %}" class="nav-image" height="35px" width="35px"></img>
-		<img src="{% static 'ghblog/hey4.jpg' %}" class="nav-image" height="35px" width="35px"></img>
+		<img src="{% static 'ghblog/hey2.jpg' %}" class=''></img>
+		<img src="{% static 'ghblog/hey3.jpg' %}" class=''></img>
+		<img src="{% static 'ghblog/hey4.jpg' %}" class=''></img>
 
 
 
@@ -79,12 +79,12 @@
 			<a href="#">Reload</a>
 
             <br>
-            <a href="./holychild.html">Life in: Holy Child Senior High School</a>
+            <a href="{% url 'ghblog:holychild' %}">Life in: Holy Child Senior High School</a>
 			<br>
-                <a href="./motown.html">Next: Life in Achimota School</a>
+                <a href="{% url 'ghblog:motown' %}">Next: Life in Achimota School</a>
             
 			<br>
-			<a href="./index.html">Go to Home Page</a>
+			<a href="{% url 'ghblog:index' %}">Home</a>
 
 		</div>
 
