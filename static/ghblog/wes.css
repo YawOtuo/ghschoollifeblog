@@ -21,6 +21,9 @@ body {
     background-color: antiquewhite;
 }
 
+.ad{
+border-left: 2px solid antiquewhite;    
+}
 h1 {
     font-weight: 300;
 }
@@ -36,4 +39,8 @@ h1 {
 .blog {
     background-color: antiquewhite;
     border-bottom: 2px solid black;
+}
+
+.bg-custom{
+    background-color: antiquewhite;
 }
